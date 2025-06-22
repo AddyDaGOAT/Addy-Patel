@@ -107,7 +107,7 @@ ul {
   border-radius: 10px;
   height: 180px;
   object-fit: cover;
-  object-position: center;
+  object-position: top;
   border: 2px solid rgba(255, 255, 255, 0.2);
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
 }
@@ -172,14 +172,21 @@ ul {
   box-shadow: 0 8px 36px rgba(0, 0, 0, 0.15);
 }
 
-.aviation-image img,
 .basketball-image img,
 .football-image img,
 .coding-image img {
   width: 400px;
   height: 300px;
   object-fit: cover;
-  object-position: bottom;
+  object-position: top;
+  border-radius: 16px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+.aviation-image img {
+  width: 400px;
+  height: 300px;
+  object-fit: cover;
+  object-position: center;
   border-radius: 16px;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
 }
