@@ -152,7 +152,7 @@ ul {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin-top: 50px;
+  margin-top: 32px;
   gap: 35px;
   background: rgba(255, 255, 255, 0.25);
   backdrop-filter: blur(8px);
@@ -298,8 +298,11 @@ ul {
     justify-content: center;
     padding: 20px;
   }
+  .header h1 {
+    font-size: 32px;
+  }
   .about-me p {
-    font-size: 15px;
+    font-size: 16px;
   }
   .about-me {
     padding: 20px;
@@ -316,5 +319,10 @@ ul {
   }
   .email-link {
     font-size: 14px;
+  }
+  .interests-images-left img,
+  .interests-images-right img {
+    width: 300px;
+    height: 200px;
   }
 }
